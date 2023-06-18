@@ -1,0 +1,30 @@
+*{
+    background-color: rgb(43, 43, 43);
+
+}
+ul{
+    margin-top: 50vh;
+    margin-left: 70vh;
+display: flex;
+gap: 2.5rem;
+}
+li{
+    display: block;
+    transition: 0.7s;
+    color: white;
+}
+ul:hover li {
+filter: blur(5px);
+}
+ul li:hover {
+    filter: blur(0px);
+}
+
+
+
+
+
+
+
+
+
